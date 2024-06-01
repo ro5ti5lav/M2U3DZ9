@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es6", // Укажите стандарт ECMAScript
+    "module": "commonjs", // Укажите систему модулей
+    "strict": true, // Включите все строгие проверки типов
+    "outDir": "./build", // Папка для сгенерированных файлов
+    "rootDir": "./scripts", // Папка с исходными .ts файлами
+    "removeComments": true, // Удалять комментарии из сгенерированных файлов
+    "noEmitOnError": true // Запрет генерации JS-файлов при ошибке типов
+  },
+  "include": [
+    "scripts/**/*.ts"
+  ], // Включить все файлы .ts в папке scripts
+  "exclude": [
+    "node_modules"
+  ] // Исключить папку node_modules
+}
